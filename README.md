@@ -1,17 +1,17 @@
-### Hii 👋
+Scanner scanner = new Scanner(System.in);
 
-<!--
-**Weamqudisat/weamqudisat** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+        System.out.print("Enter a number: ");
 
-Here are some ideas to get you started:
+        int number = scanner.nextInt();
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-System.out.println("hi");
+ 
+
+        long factorial = 2;
+
+        for (int i = 2; i <= number; i++) {
+
+            factorial *= i;
+
+        }
+
+        System.out.println("Factorial of " + number + " is: " + factorial);
